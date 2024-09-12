@@ -21,7 +21,8 @@ android {
     }
 }
 repositories {
-    jcenter()
+	maven { url 'https://nexus.web.cern.ch/nexus/content/groups/public/' }
+    mavenCentral()
 }
 
 dependencies {
